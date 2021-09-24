@@ -1,0 +1,35 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: pink;
+}
+#navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar__meun {
+    display: flex;
+}
+.navbar__menu__item {
+    padding: 8px 12px;
+    margin: 0 4px;
+    list-style: none;
+    color: white;
+    border: 1px solid transparent;
+}
+/* 소개 */
+#introduce {
+    background: url("./img/japan.bg.jpeg") center/cover no-repeat;
+    text-align: center;
+    padding: 20px;
+}
+.swiper{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin: 0;
+    text-align: center;
+}
