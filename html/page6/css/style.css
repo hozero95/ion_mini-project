@@ -120,6 +120,7 @@ button:hover{
 .back-to-top:hover{
     background-color: palevioletred;
 }
+/* kakao map API */
 .map{
     margin: 20px;
 }
