@@ -98,17 +98,16 @@
     border-radius: 4px;
 }
 /* Scroll */
-.arrow-up {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    width: 70px;
-    height: 70px;
-    font-size: 50px;
-    color: red;
-    background-color: blue;
-    border-radius: 50%;
-    opacity: 1;
-    pointer-events: none;
-    transition: opacity 300ms ease-in;
+.back-to-top{
+    margin: auto;
+    background-color: pink;
+    width: 105px;
+    height: 40px;
+    border: 3px solid palevioletred;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;   
+}
+.back-to-top:hover{
+    background-color: palevioletred;
 }
